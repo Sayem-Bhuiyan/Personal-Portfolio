@@ -25,7 +25,7 @@ body {
 .section-title {
     color: #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 700;
 }
 
@@ -35,6 +35,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 30px;
 }
 /* Adding styles to nav-bar */
 
@@ -112,6 +113,11 @@ body {
     line-height: 30px;
 }
 /* main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about-section */
 
 .about-section {
@@ -119,4 +125,25 @@ body {
     margin: 130px 0px;
     padding: 130px;
     border-radius: 10px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about-info {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
