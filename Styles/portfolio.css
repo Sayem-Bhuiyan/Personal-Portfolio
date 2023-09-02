@@ -2,7 +2,7 @@
 * {
     margin: 0;
 }
-
+/* Shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -22,6 +22,20 @@ body {
     padding: 10px 15px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-info {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* Adding styles to nav-bar */
 
 .nav-bar {
@@ -96,4 +110,13 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+/* main section */
+/* about-section */
+
+.about-section {
+    background-color: #f3e4d9;
+    margin: 130px 0px;
+    padding: 130px;
+    border-radius: 10px;
 }
