@@ -38,6 +38,12 @@ body {
     margin-top: 30px;
 }
 /* Adding styles to nav-bar */
+.developer-img{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
 
 .nav-bar {
     display: flex;
