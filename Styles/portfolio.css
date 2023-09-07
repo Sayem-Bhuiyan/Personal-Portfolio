@@ -12,6 +12,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main section {
+    margin-top: 100px;
+}
+
 .text-primary-color {
     color: #FD6E0A;
 }
@@ -176,12 +180,16 @@ main {
 .skill-section {
     display: flex;
     justify-content: space-evenly;
+    gap: 24px;
 }
 
 .skill {
     width: 267px;
-    height: 377px;
-    margin-left: 50px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.308);
 }
 
 .skill>img {
@@ -202,4 +210,23 @@ main {
     font-weight: 400;
     line-height: 28px;
     width: 201px;
+}
+
+
+/* Resume section */
+
+.resume-section-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-part {
+    display: flex;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
 }
